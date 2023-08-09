@@ -21,3 +21,4 @@ resource "null_resource" "null_resource_simple" {
         command = "echo ${each.key} ${each.value.name1} ${each.value.name2}"
     }
 }
+# terraform
